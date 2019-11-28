@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Shopping list </h1>
+            <form id="nameForm">
+                <input type="text" name="firstName" id="firstName">
+                <button type="submit" id="startBtn">Start</button>
+            </form>
+
+            <h3 class="username" id="username"></h3>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container container">
+            <div style="background-color: red;">
+                <h2>Add product and category</h2>
+                <form id="productForm">
+                    <input type="text" placeholder="Nazwa produktu" id="productName">
+                    <input type="text" placeholder="Kategoria produktu" id="categoryName">
+                    <button type="submit" id="addBtn">Dodaj</button>
+                </form>
+
+            </div>
+            <div style="background-color: blue;" id="listBox">
+                <h2>Shopping List</h2>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
